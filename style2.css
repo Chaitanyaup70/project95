@@ -1,0 +1,22 @@
+body{
+    background-image: url("https://wallpapercave.com/wp/wp9215875.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+
+}
+#logo{
+    width: 100px;
+    height: 100px;
+
+}
+#log_out{
+    float: right;
+}
+#div{
+    box-shadow: 5px 5px 30px hotpink;
+    background-color: black;
+    width: 60%;
+    padding: 10px;
+}

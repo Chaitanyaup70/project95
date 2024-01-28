@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Giga Networking</title>
+       
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link rel="stylesheet" href="style2.css">
+    </head>
+    <body>
+        <input id="log_out" type="button" value="log_out" onclick="log_out()">
+        <center>
+            <h1>Giga Networking 
+                <img id="logo" src="logo.png">
+            </h1>
+            <h3 id="welcom"></h3>
+            <h5 id="h5">Add room:</h5>
+            <input type="text" value="Room Name" id="room_name"><br><br>
+            <input type="button" value="ADD ROOM" id="add_room" onclick="add_room()">
+            <h2>Trending rooms</h2>
+            <div id="div"></div>
+        </center>
+        <script src="main2.js"></script>
+    </body>
+</html>
